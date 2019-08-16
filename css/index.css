@@ -160,6 +160,37 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 1.3rem;
+}
+.navbar h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.navbar nav {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 374px;
+}
+.navbar nav a {
+  text-decoration: none;
+  color: #454A59;
+}
+.topImage {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.topImage img {
+  border-radius: 5px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

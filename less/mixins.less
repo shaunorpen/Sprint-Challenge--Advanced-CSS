@@ -1,1 +1,24 @@
 // Mixins Here
+
+.nav-styling(@navWidth:1000px;) {
+    margin: 0 auto;
+    max-width: @navWidth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: @nav-bg;
+    border-bottom: 2px solid @nav-border;
+    padding: 1.2rem;
+}
+
+.btn-styling(@textColor:white;) {
+    background-color: @btn-bg-color;
+    color: @textColor;
+    width: 10rem;
+    font-size: 1.7rem;
+    padding: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.5rem;
+}

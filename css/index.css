@@ -187,10 +187,12 @@ p {
 }
 .topImage {
   margin: 0 auto;
-  max-width: 800px;
+  display: flex;
+  justify-content: center;
 }
 .topImage img {
   border-radius: 5px;
+  max-width: 100%;
 }
 footer {
   color: #22283B;

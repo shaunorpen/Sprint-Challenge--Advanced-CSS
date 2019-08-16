@@ -17,12 +17,12 @@
     max-width: 800px;
 }
 
-.btn-styling(@textColor:white;) {
+.btn-styling(@textColor:white; @btnPadding:1rem;) {
     background-color: @btn-bg-color;
     color: @textColor;
     width: 10rem;
     font-size: 1.7rem;
-    padding: 0.9rem;
+    padding: @btnPadding;
     font-weight: bold;
     text-align: center;
     border-radius: 0.5rem;

@@ -168,7 +168,8 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #F6F6F6;
-  padding: 1.3rem;
+  border-bottom: 2px solid #F1F1F1;
+  padding: 1.2rem;
 }
 .navbar h1 {
   font-size: 4rem;

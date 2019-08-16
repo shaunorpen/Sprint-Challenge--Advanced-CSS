@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites work by detecting the device screen size and loading an appropriate layout based the nearest match to common device screen sizes. Once loaded, an adaptive website doesn't change. Responsive design loads up a single layout which fluidly adapts itself to screen size and orientation on the device using media queries embedded in the CSS. Once loaded responsive websites can change the layout depending on the viewport size and orientation.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that media queries in the CSS of the site start with mobile and get progressively larger. Desktop first means that the media queries start with desktop and get progressively smaller.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It's a trick to make the default em / rem relative units equal 10px for browsers using the default 16px font size. It means that all maths to create specific layouts are based on multiples of 10px so is easier to work with.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessors allow us to write succinct human-readable CSS and convert it automatically into verbose machine-readable CSS rather than having to write verbose machine-readable CSS by hand.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Parametric mixins are amazing! The concept which gives me the most trouble at the moment is figuring out what code should be abstracted into a mixin and what should be just written as plain CSS. Mixins are great, but they're not necessary to accomplish everything.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
